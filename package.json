@@ -1,0 +1,20 @@
+{
+  "name": "monorepo_husky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "lerna": "^6.4.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17"
+  }
+}
