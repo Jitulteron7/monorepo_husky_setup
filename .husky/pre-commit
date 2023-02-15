@@ -3,4 +3,4 @@
 
 echo "Learning monorepo and husky"
 
-
+lerna run --concurrancy 1 --stream precommit --since HEAD --exclude-dependents
